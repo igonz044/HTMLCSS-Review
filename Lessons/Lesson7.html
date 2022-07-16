@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lesson 7</title>
+  <style>
+  .img {
+    vertical-align: middle;
+  }
+    .nina1 {
+      vertical-align: middle;
+      width: 200px;
+      border-radius: 15%;
+    }
+    .nina2 {
+      vertical-align: middle;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: left;
+
+    }
+    .nina3 {
+      vertical-align: middle;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: left;
+      border-radius: 100%;
+    }
+    .nina4 {
+      vertical-align: middle;
+      width: 200px;
+      height: 400px;
+      object-fit: contain;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 80%;
+      border-color: pink;
+    }
+    .p {
+      color: red;
+      font-size: 22px;
+      text-decoration: underline;
+    }
+    .searchbar {
+      display: block;
+      font-size: 16px;
+      border-width: 0.8px;
+      border-style: solid;
+      border-color: lightgrey;
+      border-radius: 8px;
+      padding: 10px 10px 10px;
+      margin-bottom: 50px;
+    }
+    .googlesearchbar {
+      font-size: 16px;
+      width: 400px;
+      border: none;
+      box-shadow: 0px 0px 5px lightgray;
+      border-radius: 18px;
+      padding: 10px 10px 10px;
+      margin-bottom: 50px;
+    }
+    .LinkedInEmail {
+      font-family: Arial;
+      color: gray;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+    .LinkedInSignUp {
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgb(90,90,90);
+      padding-top: 8px;
+      border-radius: 4px;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+    .LinkedInButton {
+      color: white;
+      font-size: 16px;
+      border: none;
+      padding: 15px 10px 15px;
+      width: 300px;
+      border-radius: 19px;
+      background-color: rgb(57,96,162);
+    }
+    .LinkedInButton {
+      color: white;
+      font-size: 16px;
+      border: none;
+      padding: 15px 10px 15px;
+      width: 300px;
+      border-radius: 19px;
+      margin-bottom: 50px;
+      background-color: rgb(14,116,168);
+      transition: background-color 0.3s;
+    }
+    .LinkedInButton:hover {
+      background-color: rgb(40,94,147);
+    }
+
+    .nina5 {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      object-position: left;
+      border-radius: 100%;
+    }
+    .Twitter {
+      vertical-align: middle;
+      border: none;
+      font-size: 18px;
+
+      width: 320px;
+      margin-left: 9px;
+    }
+    .Twitter::placeholder {
+      color: grey;
+    }
+
+    .tbutton {
+      vertical-align: middle;
+      background-color: rgb(74, 153, 233);
+      border-color: white;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      height: 36px;
+      width: 80px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+
+    }
+    .tbutton:hover {
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+
+</head>
+<body>
+  <img class="nina1" src="nina.jpg">
+  <img class="nina2" src="nina.jpg">
+  <img class="nina3" src="nina.jpg">
+  <img class="nina4" src="nina.jpg">
+
+  <p class="p">
+    Challenge Exercises
+  </p>
+
+  <input class="searchbar" type="textbox" placeholder="Search">
+  <input class="googlesearchbar" type="textbox" placeholder="Search Google or type a URL">
+
+
+  <p class="LinkedInEmail">Email</p>
+  <input class="LinkedInSignUp" type="textbox" >
+  <p class="LinkedInEmail">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+  <button class="LinkedInButton">Agree & Join</button>
+
+
+
+  <div class="">
+    <p>Twitter</p>
+    <img class="nina5" src="nina.jpg">
+    <input class="Twitter" type="textbox" placeholder="What's happening?">
+    <button class="tbutton">Tweet</button>
+  </div>
+
+
+</body>
+</html>

@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 9</title>
+    <title>All Exercises</title>
     <style>
+
+    div {
+      margin-left: 40px;
+    }
       .ExerciseTitle {
         font-family: Tahoma;
         font-size: 12px;
@@ -40,6 +44,75 @@
         padding-left: 15px;
         padding-bottom: 15px;
         width: 280px;
+      }
+
+      .elines {
+        line-height: 5px;
+        margin-left: -610px;
+        text-align: center;
+      }
+      .e {
+        font-family: Arial;
+        color: orange;
+        font-size: 8px;
+        margin-bottom: 2px;
+      }
+      .ea {
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 13px;
+      }
+      .eb {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      .ec {
+        font-family: Arial;
+        font-size: 10px;
+      }
+      .ebutton {
+        font-size: 14px;
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+        align-items: center
+        /*margin-left: 364px;*/
+        padding: 30px 40px;
+        border-radius: 20px;
+        transition: background-color 0.8s, color 0.8s;
+      }
+      .ebutton:hover {
+        background-color: red;
+      }
+      .ebutton:active {
+        opacity: 0.4;
+      }
+
+      .flines {
+        font-family: Arial;
+        line-height: 5px;
+      }
+      .f {
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+      .greyf {
+        font-size: 8px;
+        color: grey;
+      }
+      .fa {
+        font-size: 8px;
+        color: green;
+      }
+      .fb {
+        font-size: 8px;
+        color: grey
+      }
+      .redf {
+        color: red;
       }
 
       .youtubemusicbox {
@@ -214,6 +287,42 @@
       .button {
         cursor: pointer;
       }
+
+      .uber_title {
+        font-family: Tahoma;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      .location,
+      .destination {
+        border: none;
+        background-color: #f3f3f3;
+        display: block;
+        padding: 14px 18px;
+        margin-bottom: 5px;
+        width: 300px;
+      }
+      .request_button,
+      .sched_button {
+        border: none;
+        padding:15px 18px;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+      .request_button:hover,
+      .sched_button:hover {
+        opacity: 80%;
+      }
+      .request_button {
+        background-color: black;
+        color: white;
+        width: 150px;
+        margin-right: 10px;
+      }
+      .sched_button {
+        background-color: lightgray;
+        color: black;
+      }
     </style>
   </head>
 
@@ -228,6 +337,34 @@
     </div>
 
 <div class="seperation2"></div>
+    <p class="ExerciseTitle">Apple Exercise</p>
+    <div class="elines">
+      <p class="e">New</p>
+      <p class="ea">MacBookPro</p>
+      <p class="eb">Supercharged for pros.</p>
+      <p class="ec">From $1999</p>
+      <button class="ebutton">Buy</button>
+    </div>
+
+<div class="seperation2"></div>
+    <p class="ExerciseTitle">Stock Market Exercise</p>
+    <div class="flines">
+      <p class="f">
+        1,049.61
+        <span class="greyf">
+          USD
+        </span>
+      </p>
+      <p class="fa">+18.05 (1.75%) today</p>
+      <p class="fb">
+        After hours 1,048.00
+        <span class="redf">
+          -1.61 (0.15%)
+        </span>
+      </p>
+    </div>
+
+<div class="seperation2"></div>
     <p class="ExerciseTitle">YouTube Exercise</p>
     <div class="youtubemusicbox">
       <p class="installmusic">Install YouTube Music</p>
@@ -236,10 +373,12 @@
 
 <div class="seperation2"></div>
     <p class="ExerciseTitle">LinkedIn Exercise</p>
-    <p class="LinkedInEmail">Email</p>
-    <input class="LinkedInSignUp" type="textbox" >
-    <p class="LinkedInEmail">By clicking Agree & Join, you agree to the Privacy Policy.</p>
-    <button class="LinkedInButton">Agree & Join</button>
+    <div class="LinkedIn">
+      <p class="LinkedInEmail">Email</p>
+      <input class="LinkedInSignUp" type="textbox" >
+      <p class="LinkedInEmail">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+      <button class="LinkedInButton">Agree & Join</button>
+    </div>
 
 <div class="seperation2"></div>
     <p class="ExerciseTitle">Twitter Exercise</p>
@@ -280,7 +419,6 @@
     </div>
 
 
-
 <div class="seperation2"></div>
     <p class="ExerciseTitle">Google Exercise</p>
     <div class="googlehomepage">
@@ -293,6 +431,17 @@
       <button type="button" class="button">Google Search</button>
       <button type="button" class="button">I'm Feeling Lucky</button>
     </div>
+
+<div class="seperation2"></div>
+    <p class="ExerciseTitle">Uber Exercise</p>
+    <div class="">
+      <p class="uber_title">Request a ride now</p>
+      <input class="location" type="text" placeholder="Enter pickup location">
+      <input class="destination" type="text" placeholder="Enter destination">
+      <button class="request_button" type="button">Request now</button>
+      <button class="sched_button" type="button">Schedule for later</button>
+    </div>
+
 
   </body>
   </html>

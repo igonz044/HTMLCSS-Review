@@ -1,12 +1,50 @@
+<!-- CSS Display Property -->
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="/css/master.css">
   <title>Youtube</title>
+
+  <style media="screen">
+    .video-title {
+      width: 300px;
+    }
+    .video-author,
+    .video-stats {
+
+    }
+  </style>
 </head>
 <body>
-  <img src="thumbnails/thumbnail-1.webp" alt="">
+
+  <input class="search-bar" type="text" placeholder="Search">
+
+  <!--Imgs, Inputs, & buttons are Inline-block Elements by default!!-->
+  <!--div's & p's are Block Elements by default!!-->
+  <!--Strong is an Inline Element-->
+
+  <!--Vertical Layout-->
+  <div class="">
+    <img src="thumbnails/thumbnail-1.webp">
+  </div>
+
+  <div class="">
+    <p class="video-title">
+      <strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong>
+    </p>
+    <p class="video-author">
+      Marque Brownlee
+    </p>
+    <p class="video-stats">
+      3.4M views &#8226; 6 months ago
+    </p>
+
+
+  </div>
 </body>
 </html>

@@ -37,29 +37,92 @@
       margin-bottom: 50px;
     }
 
+
+    .textbox {
+      padding: 16px 18px;
+      width: 180px;
+      border: 0.5px lightgray solid;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    .textbox::placeholder {
+      font-size: 20px;
+    }
+
+    .email-textbox {
+      display: block;
+
+    }
+    .signup-button {
+      width: 440px;
+      border: none;
+      padding: 16px 18px;
+      background-color: rgb(66, 128, 235);
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 10px;
+    }
+    .uber_title {
+      font-family: Tahoma;
+      font-size: 28px;
+    }
+    .location,
+    .destination {
+      border: none;
+      background-color: #f3f3f3;
+      display: block;
+      padding: 14px 18px;
+      margin-bottom: 5px;
+      width: 300px;
+    }
+    .request_button,
+    .sched_button {
+      border: none;
+      padding:15px 18px;
+      margin-top: 25px;
+    }
+    .request_button {
+      background-color: black;
+      color: white;
+      width: 150px;
+    }
+    .sched_button {
+      background-color: lightgray;
+      color: black;
+    }
   </style>
 </head>
 <body>
   <input type="textbox" placeholder="Name">
   <input class="t1" type="textbox" placeholder="Email">
 
-
   <p>Paragraph & Two Buttons</p>
   <p class="p1">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
   <button class="b1" type="button">Yes</button>
   <button class="b2" type="button">No</button>
 
-
   <img class="googlelogo" src="Google_logo.svg.png">
   <input class="googlesearchbar" type="textbox" placeholder="Search Google or type a URL">
 
   <!-- TO DO: 2:34:53 Challenge Exercises 8d & 8e -->
-  
+  <p>Challenge Exercises</p>
+  <div class="signup-form">
+    <input class="textbox firstname-textbox" type="text" placeholder="First name">
+    <input class="textbox lastname-textbox" type="text" placeholder="Last name">
+    <input class="textbox email-textbox" type="text" placeholder="Email" class="email">
+    <button class="signup-button" type="button">Sign Up</button>
+  </div>
+
+<p>Uber Exercise</p>
+<p class="uber_title">Request a ride now</p>
+<input class="location" type="text" placeholder="Enter pickup location">
+<input class="destination" type="text" placeholder="Enter destination">
+<div>
+  <button class="request_button" type="button">Request now</button>
+  <button class="sched_button" type="button">Schedule for later</button>
+</div>
 
 </body>
-
-
-
-
-
 </html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Practice</title>
+
+    <style media="screen">
+      p {
+        margin: 0;
+      }
+      .add-friend-grid {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        column-gap: 5px;
+      }
+      .friend-1 {
+        box-shadow: 0px 0px 5px gray;
+      }
+      .friend1 {
+        width: 100%;
+      }
+      .mutual-friend-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        margin-bottom: 5px;
+        font-size: 12px;
+      }
+      .mutual-friend-picture {
+        width: 40px;
+        border-radius: 50px;
+        vertical-align: top;
+      }
+      .mutual-friends-count {
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 2fr;">
+      <div style="background-color: lightblue;">
+        div 1
+      </div>
+      <div style=" background-color: lightpink">
+        div 2
+      </div>
+    </div>
+
+<p>Grid Exercise 1</p>
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 75px;
+      row-gap: 20px;">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+<p>Grid Exercise 2</p>
+    <div style="
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      row-gap: 10px;">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+<p>Grid Exercise 3</p>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      column-gap: 20px;
+      row-gap: 10px;
+      margin-top: 5px;">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+<p>Facebook Grid Exercise</p>
+  <div class="add-friend-grid">
+    <div class="friend-1">
+      <img class="friend1" src="nina.jpg">
+      <p class="name">Nina</p>
+        <div class="mutual-friend-grid">
+          <img class="mutual-friend-picture" src="nina2.jpg">
+          <p class="mutual-friends-count">2 mutual friends</p>
+        </div>
+      <button class="add-friend-button" type="button">Add Friend</button>
+    </div>
+
+    <div class="friend-1">
+      <img class="friend1" src="nina.jpg">
+      <p class="name">Nina</p>
+        <div class="mutual-friend-grid">
+          <img class="mutual-friend-picture" src="nina.jpg">
+          <p class="mutual-friends-count">2 mutual friends</p>
+        </div>
+      <button class="add-friend-button" type="button">Add Friend</button>
+    </div>
+
+    <div class="friend-1">
+      <img class="friend1" src="nina.jpg">
+      <p class="name">Nina</p>
+        <div class="mutual-friend-grid">
+          <img class="mutual-friend-picture" src="nina.jpg">
+          <p class="mutual-friends-count">2 mutual friends</p>
+        </div>
+      <button class="add-friend-button" type="button">Add Friend</button>
+    </div>
+  </div>
+  </body>
+</html>

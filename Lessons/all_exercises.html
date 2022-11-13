@@ -7,7 +7,7 @@
     <title>All Exercises</title>
     <style>
 
-    div {
+    div:not(#facebookfriend) {
       margin-left: 40px;
     }
       .ExerciseTitle {
@@ -73,14 +73,15 @@
         font-size: 10px;
       }
       .ebutton {
-        font-size: 14px;
-        background-color: blue;
+        font-size: 12px;
+        background-color: rgb(48, 111, 219);
         color: white;
         border: none;
         cursor: pointer;
         align-items: center
         /*margin-left: 364px;*/
-        padding: 30px 40px;
+        width: 200px;
+        padding: 12px 18px;
         border-radius: 20px;
         transition: background-color 0.8s, color 0.8s;
       }
@@ -90,7 +91,6 @@
       .ebutton:active {
         opacity: 0.4;
       }
-
       .flines {
         font-family: Arial;
         line-height: 5px;
@@ -205,13 +205,10 @@
         font-size: 16px;
         cursor: pointer;
         transition: box-shadow 0.15s;
-
       }
       .tbutton:hover {
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
       }
-
-
       .examplefriend {
         /*box shadow- left/right - top/bottom - radius -color */
         box-shadow: 0px 0px 5px gray;
@@ -253,19 +250,16 @@
         border-radius: 2px;
         cursor: pointer;
       }
-
       .seperation {
         margin-bottom: 20px;
       }
-
-      .facebookfriend {
+      #facebookfriend {
         /*box shadow- left/right - top/bottom - radius -color */
         box-shadow: 0px 0px 5px gray;
         display: inline-block;
         padding-bottom: 5px;
         margin-right: 6px;
       }
-
       .googlehomepage {
         text-align: center;
       }
@@ -273,7 +267,6 @@
         width: 180px;
         margin-bottom: 12px;
       }
-
       .googlesearchbar {
         font-size: 2;
         width: 400px;
@@ -283,7 +276,6 @@
         padding: 10px 10px 10px;
         margin-bottom: 20px;
       }
-
       .button {
         cursor: pointer;
       }
@@ -397,19 +389,19 @@
       <button class="AddFriendButton">Add Friend</button>
     </div>
     <div class="seperation"></div>
-    <div class="facebookfriend">
+    <div id="facebookfriend">
       <img class="NinaProfilePic" src="nina.jpg">
       <p class="FriendName">Nina</p>
       <p class="MutualFriends">12 mutual friends</p>
       <button class="AddFriendButton">Add Friend</button>
     </div>
-    <div class="facebookfriend">
+    <div id="facebookfriend">
       <img class="NinaProfilePic" src="nina2.jpg">
       <p class="FriendName">Baby</p>
       <p class="MutualFriends">3 mutual friends</p>
       <button class="AddFriendButton">Add Friend</button>
     </div>
-    <div class="facebookfriend">
+    <div id="facebookfriend">
       <img class="NinaProfilePic" src="nina3.jpg">
       <p class="FriendName">Elena</p>
       <p class="MutualFriends">4 mutual friends</p>

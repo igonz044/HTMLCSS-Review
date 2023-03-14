@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      todo1
+    </div>
+    <script>
+      let todo1 = 'fold laundry';
+      let todo2 = 'organize room';
+      let todo3 = 'warm up food';
+
+      let todos = ['learn js', 'do leetcode','interview','get150kjob'];
+
+      function addToDo(todoTitle){
+        let element = document.createElement('div');
+        element.innerText = todoTitle;
+        document.body.appendChild(element);
+      }
+      addToDo(todo1);
+      addToDo(todo2);
+
+    </script>
+
+
+  </body>
+</html>
